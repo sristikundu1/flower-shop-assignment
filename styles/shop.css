@@ -1,0 +1,371 @@
+/* common style */
+/* body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+} */
+
+.primary-size {
+    margin: 0 0 200px;
+    
+}
+
+.middle-size {
+    margin: 200px 350px;
+}
+
+.main-color {
+    color: #E55473;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-style: none;
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+/* heading part style */
+.banner {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    height: 1310px;
+}
+
+.banner-writing {
+    justify-content: space-between;
+    padding-left: 360px;
+    padding-top: 320px;
+
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 100px;
+    font-weight: 800;
+    max-width: 900px;
+    font-family: Lato;
+}
+
+.banner-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    max-width: 850px;
+}
+
+.banner-writing .btn {
+    padding: 30px 50px;
+    font-size: 28px;
+}
+
+.banner .banner-img {
+    padding-left: 200px;
+    padding-top: 100px;
+
+}
+
+/* feature flower style */
+.feature {
+    margin: 140px 150px 140px 300px;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.fetch-para p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 2px;
+    font-size: 22px;
+    line-height: 40px;
+    max-width: 750px;
+
+}
+
+.fetch-para {
+    margin-right: 800px;
+    font-family: Lato;
+    font-weight: 800;
+}
+
+.fetch-para h1 {
+    /* text-align: center; */
+    margin-left: 450px;
+    font-size: 40px;
+}
+
+#fetch-flower {
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    margin-left: 200px;
+}
+
+
+.feature #fetch-flower .flower6 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 20px;
+    width: 400px;
+    height: 428px;
+
+}
+
+.feature #fetch-flower .flower5 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-right: 20px;
+    width: 400px;
+    height: 428px;
+}
+
+.feature #fetch-flower .flower7 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-right: 20px;
+    width: 400px;
+    height: 470px;
+}
+
+#fetch-flower figcaption {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-family: Lato;
+    font-weight: 700;
+    margin-top: 30px;
+    font-style: normal;
+    text-decoration-line: underline;
+}
+
+/* service process style */
+.support figcaption {
+    color: rgba(39, 39, 39, 0.60);
+    padding-top: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.support {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1290px;
+    height: 300px;
+    font-size: 25px;
+    padding: 70px;
+    margin-left: 540px;
+
+}
+
+.support ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+
+/* hotdealstyle */
+.hot-content {
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    height: 930px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hot-deal img {
+    padding-left: 300px;
+}
+
+.hot-content h1 {
+    color: #272727;
+    font-size: 60px;
+    font-family: Lato;
+    font-weight: 800;
+}
+
+.hot-content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 780px;
+
+}
+
+.hot-content .btn {
+    margin-left: 290px;
+    padding: 30px 50px;
+    font-size: 30px;
+}
+
+/* intagram style */
+
+
+.insta .insta-para {
+    text-align: center;
+
+}
+
+.insta {
+    margin: 140px 300px 140px 300px;
+    font-size: 40px;
+    margin-left: 150px;
+
+}
+
+.inst-head {
+    color: #272727;
+    font-size: 50px;
+    font-family: Lato;
+    font-weight: 800;
+}
+
+.inst-para {
+    display: flex;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 20px;
+    justify-content: center;
+    line-height: 30px;
+
+}
+
+.insta ul {
+    display: flex;
+}
+
+.insta li {
+    margin-right: 20px;
+    list-style: none;
+
+}
+
+/* email writing style */
+.search {
+    width: 1800px;
+}
+
+#headline {
+    font-size: 45px;
+    text-align: center;
+    padding-right: 200px;
+    font-family: Lato;
+    font-weight: 800;
+
+}
+
+#coupon {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 45px;
+    margin-top: 5px;
+    padding-right: 200px;
+    text-align: center;
+
+}
+
+.search .search-para {
+    margin-left: 200px;
+    padding: 150px;
+    background-image: url('/FlowerAsset/Rectangle9.png');
+    background-repeat: no-repeat;
+}
+
+#email-bar {
+    width: 500px;
+    height: 58px;
+    border-radius: 8px;
+    border-style: none;
+    margin-left: 150px;
+    padding-left: 20px;
+    padding-right: 100px;
+    margin-right: 16px;
+}
+
+/* review section style */
+label {
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+label input {
+    width: 500px;
+    height: 58px;
+    border-radius: 8px;
+    border-style: none;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 100px;
+    background-color: rgba(245, 245, 245, 0.897);
+}
+
+label textarea {
+    border-radius: 8px;
+    border-style: none;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 100px;
+    background-color: rgba(245, 245, 245, 0.897);
+}
+
+.rev {
+    background-color: #e5547371;
+    margin: 140px 150px 140px 200px;
+    width: 1440px;
+    font-size: 35px;
+    text-align: center;
+    font-family: Lato;
+    font-weight: 800;
+    color: #272727b7;
+}
+
+/* footer style */
+footer {
+    text-align: center;
+    background: #111010;
+    height: 390px;
+    /* padding: 100px 360px;
+     */
+    margin-bottom: 0;
+
+}
+
+.sp {
+    color: #FFF;
+}
+
+footer h1 {
+    font-size: 65px;
+    font-family: Lato;
+    font-weight: 800;
+}
+
+.fpara {
+    color: rgba(255, 255, 255, 0.774);
+    font-size: 25px;
+    max-width: 850px;
+    margin-left: 500px;
+    line-height: 40px;
+}
+
+.fclose {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 23px;
+}

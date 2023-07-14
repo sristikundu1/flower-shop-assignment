@@ -341,9 +341,9 @@ footer {
     text-align: center;
     background: #111010;
     height: 390px;
-    /* padding: 100px 360px;
-     */
-    margin-bottom: 0;
+    padding: 100px 360px;
+    
+    /* margin-bottom: 0; */
 
 }
 
